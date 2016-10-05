@@ -9,9 +9,6 @@ import (
 
 const path = "tmp/.pmc.out"
 
-const MockString = `key1: 490942    key2: 0:0:0
-    key3: 0:0:23    key4: 2:232:32`
-
 func main() {
 	CreateFile()
 	WriteFile()
